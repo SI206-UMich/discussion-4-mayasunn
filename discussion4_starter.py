@@ -53,7 +53,7 @@ class Rectangle():
             return "Invalid input"
         return 2 * (self.width + self.height)
 
-
+#shows rectangle area and perimeter
 def main():
     r = Rectangle(10, 10)
     print(r)
